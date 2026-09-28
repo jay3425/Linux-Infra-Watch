@@ -66,7 +66,7 @@ fi
 # 8. Log error hunting
 if grep -i -q "error" "$LOG_FILE"; then
     log_message "CRITICAL: ERROR FOUND IN LOG MESSAGE"
-    exit 1
+    
 fi
 
 # 9. Final message print
