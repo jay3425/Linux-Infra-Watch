@@ -104,16 +104,18 @@ V3 introduced system reporting, warning thresholds, and log rotation.
 # 📁 Project Structure
 
 ```text
-InfraWatch/
+Linux-Infra-Watch/
 │
-├── main.sh
-├── main2.sh
-├── main3.sh
-├── report.log
-├── history.log
-├── README.md
+├── v1/
+│   └── main.sh
 │
-└── screenshots/
+├── v2/
+│   └── main2.sh
+│
+├── v3/
+│   └── main3.sh
+│
+└── README.md
 ```
 
 ### Script Versions
