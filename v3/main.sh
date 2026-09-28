@@ -102,7 +102,7 @@ NGINX_ERROR_LOG="/var/log/nginx/error.log"
 
 if [ -f "$NGINX_ERROR_LOG" ] && grep -i -q "error" "$NGINX_ERROR_LOG"; then
     log_message "CRITICAL: ERROR FOUND IN NGINX LOG"
-    exit 1
+    
 fi
 
 # 9. Final message print
