@@ -1,7 +1,7 @@
 #!/bin/bash 
  
 # 1. Create Variable for store log path 
-LOG_FILE="/home/ec2-user/history.log" 
+LOG_FILE="$HOME/history.log" 
  
 #Creating function for time and date store in log file 
 log_message(){ 
